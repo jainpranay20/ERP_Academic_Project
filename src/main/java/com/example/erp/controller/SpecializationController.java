@@ -79,7 +79,7 @@ public class SpecializationController {
          Map<String, Integer> map = new HashMap<>();
 
         for (Specialization spec : specialization) {
-            List<Courses> course = spec.getCourses();
+           List<Courses> course = spec.getCourses();
             int i=0;
             for(Courses c: course)
             {
